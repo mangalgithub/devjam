@@ -131,3 +131,29 @@ body {
     font-size: 1.2rem;
     color: #000;
 }
+/***lauguage section*/
+.language-container {
+    margin-left: 25px;
+}
+
+.language-container p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.lauguge-image {
+    width: 20px;
+}
+
+.lauguge-image img {
+    width: 100%;
+}
+
+/***login-container***/
+.login-container {
+    margin-left: 15px;
+}
+
+.login-container p {
+    margin: 0;
+}
