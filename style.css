@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-color: rgb(19, 25, 33);
+    background-color: rgb(226,114,16);
     height: 60px;
     color: white;
     
@@ -81,7 +81,7 @@ body {
 .hello {
     font-size: 0.8rem;
     padding-left: 20px;
-    color: #ccc;
+    color: #f9f5f5;
 }
 
 .icon-location {
@@ -90,7 +90,6 @@ body {
 
 /***search-container****/
 .search-container {
-    background-color: red;
     margin-left: 25px;
     width: 640px;
     display: flex;
@@ -121,7 +120,7 @@ body {
 
 .search-icon {
     width: 50px;
-    background-color: rgb(235, 160, 94);
+    background-color: rgb(190,232,240);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +188,7 @@ body {
 /**************************************navigation*****************************************/
 .nav {
     height: 40px;
-    background-color: #232f3d;
+    background-color: #c0d1b8;
     margin: 0;
 }
 
@@ -212,7 +211,7 @@ body {
 }
 
 .container-nav ul li a {
-    color: white;
+    color: rgb(10,9,9);
     text-decoration: none;
     padding: 0px 2px;
 
@@ -227,6 +226,7 @@ body {
     background-color:honeydew;
     width:auto;
     height:auto;
+    text-decoration-style:none;
 }
 
 
@@ -243,15 +243,6 @@ body {
     padding: 10px;
 }
 
-.prime-image-hover:hover .prime-image {
-    transition: display 1s;
-    display: block;
-}
-
-.prime-image img {
-    width: 100%;
-    height: 100%;
-}
 /*sidebar navigation****/
 #open-nav-sidebar {
     cursor: pointer;
@@ -385,7 +376,7 @@ body {
 
 .main{
     position:relative;
-    top:-350px;
+    top:-100px;
 }
 .productBackgraound{ 
     background-color: rgba(213, 247, 247,0.4);
@@ -415,7 +406,7 @@ body {
 .card-product-nested-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    
 
 
 }
@@ -495,7 +486,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 1px 1px;
-    background-color: red;
+
 }
 .today_deals_product_item p{
     justify-self: flex-end;
